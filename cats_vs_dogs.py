@@ -18,7 +18,7 @@ if language_toggle:
         st.subheader('Photos & Info')
 
      with col2:
-        img = Image.open("images\Dog-and-Cat-Stress.png")
+        img = Image.open("images/Dog-and-Cat-Stress.png")
         st.image(img, width=1000)  # Adjust width as needed
 
     # radio button
@@ -34,7 +34,7 @@ if language_toggle:
         # checkbox
         if st.checkbox("Show/Hide Image"):
             # display image
-            img1 = Image.open(r"images\cat-lying-down.jpg")
+            img1 = Image.open("images/cat-lying-down.jpg")
             st.image(img1, width=300)  # Adjust width as needed
         # selection box
         breed = st.selectbox("Breed: ", ['British Shorthair', 'Maine Coon', 'Sphynx cat','Persian cat','Siamese cat']) #options
@@ -58,7 +58,7 @@ if language_toggle:
      else:
         st.write("The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the gray wolf. Also called the domestic dog, it was selectively bred from an extinct population of wolves during the Late Pleistocene by hunter-gatherers. The dog was the first species to be domesticated by humans, over 14,000 years ago and before the development of agriculture. Experts estimate that due to their long association with humans, dogs have gained the ability to thrive on a starch-rich diet that would be inadequate for other canids.")
         if st.checkbox("Show/Hide Image"):
-            img2 = Image.open(r"images\dog-breed-temperaments-1240x640.jpg")
+            img2 = Image.open("images/dog-breed-temperaments-1240x640.jpg")
             st.image(img2, width=600)  # Adjust width as needed
 
             # selection box
@@ -67,7 +67,7 @@ if language_toggle:
         if breed_dog == 'Azawakh':
             # print info about selected breed
             st.write("The Azawakh is a breed of dog from West Africa. With ancient origins, it is raised throughout the Sahelian zone of Mali, Niger, and Burkina Faso. This region includes the Azawagh Valley for which the breed is named. While commonly associated with the nomadic Tuareg people, the dogs are also bred and owned by other ethnic groups, such as the Peulh, Bella, and Hausa. The Azawakh is more related to the Sloughi than it is to the Saluki.")
-            img3 = Image.open(r"images\Azawakh.jpg")
+            img3 = Image.open("images/Azawakh.jpg")
             st.image(img3, width=300)
 
         elif breed_dog == 'Labrador Retriever':
@@ -102,7 +102,7 @@ else :
         # checkbox
         if st.checkbox("Εμφάνιση Εικόνας"):
             # display image
-            img1 = Image.open(r"images\cat-lying-down.jpg")
+            img1 = Image.open("images/cat-lying-down.jpg")
             st.image(img1, width=300)  # Adjust width as needed
         # selection box
         breed = st.selectbox("Ράτσα: ",
@@ -132,7 +132,7 @@ else :
     else:
         st.write("Ο σκύλος (Canis familiaris ή Canis lupus familiaris) είναι εξημερωμένος απόγονος του γκρίζου λύκου. Γνωστός και ως οικόσιτος σκύλος, προήλθε από επιλεκτική αναπαραγωγή μιας εξαφανισμένης πληθυσμιακής ομάδας λύκων κατά τη Ύστερη Πλειστόκαινο, από κυνηγούς-τροφοσυλλέκτες.Ο σκύλος ήταν το πρώτο είδος που εξημερώθηκε από τον άνθρωπο, περισσότερο από 14.000 χρόνια πριν, πολύ πριν από την ανάπτυξη της γεωργίας.Οι ειδικοί εκτιμούν ότι, λόγω της μακράς σχέσης τους με τον άνθρωπο, οι σκύλοι έχουν αναπτύξει την ικανότητα να επιβιώνουν με μια διατροφή πλούσια σε άμυλο, η οποία θα ήταν ακατάλληλη για άλλα είδη της οικογένειας των κυνίδων.")
         if st.checkbox("Εμφάνιση Εικόνας"):
-            img2 = Image.open(r"images\dog-breed-temperaments-1240x640.jpg")
+            img2 = Image.open("images/dog-breed-temperaments-1240x640.jpg")
             st.image(img2, width=600)  # Adjust width as needed
 
             # selection box
