@@ -93,7 +93,7 @@ else :
         st.subheader('Φωτογραφίες και πληροφορίες')
 
     with col4:
-        img = Image.open(r"images\Dog-and-Cat-Stress.png")
+        img = Image.open("images\Dog-and-Cat-Stress.png")
         st.image(img, width=1000)
 
     status = st.radio("Επίλεξε την αγαπημένη σου χνουδόμπαλα: ", ('Γάτα', 'Σκύλος'))
