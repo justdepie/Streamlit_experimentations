@@ -18,7 +18,7 @@ if language_toggle:
         st.subheader('Photos & Info')
 
      with col2:
-        img = Image.open(r"C:\Users\despoina.angelonidi\Documents\toy\Dog-and-Cat-Stress.png")
+        img = Image.open("main/Dog-and-Cat-Stress.png"))
         st.image(img, width=1000)  # Adjust width as needed
 
     # radio button
